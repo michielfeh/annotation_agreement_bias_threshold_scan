@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "michielfeh-alignrsr_jd341"
+name = "michielfeh-annotation_agreement_bias_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://michielfeh.github.io"
-Repository = "https://github.com/michielfeh/alignrsr_jd341"
-Issues = "https://github.com/michielfeh/alignrsr_jd341/issues"
+Repository = "https://github.com/michielfeh/annotation_agreement_bias_threshold_scan"
+Issues = "https://github.com/michielfeh/annotation_agreement_bias_threshold_scan/issues"
 
 [project.scripts]
-alignrsr_jd341 = "alignrsr_jd341:main"
+annotation_agreement_bias_threshold_scan = "annotation_agreement_bias_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["alignrsr_jd341"]
+py-modules = ["annotation_agreement_bias_threshold_scan"]
